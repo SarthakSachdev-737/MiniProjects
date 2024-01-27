@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #EDE4FF;
+}
+
+
+.heading h1 {
+    text-align: center;
+    color: #6528F7;
+    font-size: 15vh;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 3px;
+    margin: 2vh 0;
+    text-decoration-line: underline;
+    text-decoration-color: #6528F7;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 12px;
+}
+
+.ulticon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoboxbg {
+    background-color: #d7bbf59f;
+    width: 40vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.entertime {
+    width: 3.2vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 0px;
+    padding: 1px 20px;
+    position: relative;
+    left: 5vw;
+    margin: 12px 0;
+    font-family: 'Pangolin', cursive;
+    font-weight: 700;
+    font-size: 1vw;
+
+}
+
+.entertodo {
+    width: 14.3vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 0px;
+    padding: 1px 20px;
+    position: relative;
+    left: 6.5vw;
+    margin: 12px 0;
+    font-family: 'Pangolin', cursive;
+    font-weight: 700;
+    font-size: 1vw;
+
+}
+
+
+.todobox {
+    background-color: white;
+    width: 34vw;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 3vw;
+    margin: 12px 0;
+}
+
+.todolist {
+    background-color: #fafafaa3;
+    width: 29vw;
+    height: 48vh;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todorow {
+    display: flex;
+    flex-direction: row;
+}
+
+.todorowwithhr {
+    display: flex;
+    flex-direction: column;
+}
+
+.tt {
+    font-family: 'Pangolin', cursive;
+    padding: 0 1vw;
+    line-height: 4vh;
+    margin: 1vh 0.5vw
+}
+
+
+.enterflex {
+    display: flex;
+    align-items: center;
+}
+
+.efbutton {
+    position: relative;
+    z-index: 1;
+    left: 8vw;
+    height: 4.2vh;
+    width: 3.3vw;
+    background-color: #6528F7;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+.efbutton:hover {
+    background-color: #743bf9;
+}
+
+.efbutton:active {
+    box-shadow: 1.5px 1.5px 1px;
+    background-color: #743bf9;
+}
+
+.delbtn {
+    z-index: 1;
+    height: 4.2vh;
+    width: 4.3vw;
+    background-color: #fa2525;
+    padding: 7px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-weight: 700;
+    font-size: 1vw;
+    margin: 2vh auto;
+}
+
+.delbtn:hover {
+    background-color: #f74646;
+}
+
+.delbtn:active {
+    box-shadow: .5px .5px 1px rgb(0, 0, 0);
+    background-color: #f74646;
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: cyan;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ClockBody {
+    display: flex;
+    background-color:#dfbc90;
+    width: 50vw;
+    height: 30vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.35vw;
+    /* border: 2px solid black; */
+}
+
+.sn {
+    border: .2px solid black;
+    width: 15vw;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14vh;
+    margin: 0.5vh;
+    background-color: rgba(107, 237, 107, 0.76);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn{
+    width: 7vw;
+    height: 2vh;
+    background-color: gray;
+    /* border: 2px solid black; */
+    margin: 0 12vw;
+    border-radius: 5px 5px 0 0;
+}
+
+.btncontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0;
+}
